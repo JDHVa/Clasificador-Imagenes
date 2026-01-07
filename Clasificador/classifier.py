@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier  # ¡Mucho mejor que DecisionTree!
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 
@@ -44,3 +44,4 @@ def entrenar_clasificador_avanzado(ruta_csv):
 
 if __name__ == "__main__":
     modelo = entrenar_clasificador_avanzado("resultadosV9.csv")
+
